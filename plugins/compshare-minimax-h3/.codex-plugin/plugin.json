@@ -1,0 +1,35 @@
+{
+  "name": "compshare-minimax-h3",
+  "version": "0.1.0",
+  "description": "Control CompShare MiniMax H3 video generation from Codex.",
+  "author": {
+    "name": "Phil"
+  },
+  "homepage": "https://www.compshare.cn/docs/modelverse/models/video_api/minimax-h3-video-api",
+  "keywords": [
+    "compshare",
+    "minimax",
+    "h3",
+    "video-generation"
+  ],
+  "interface": {
+    "displayName": "CompShare MiniMax H3",
+    "shortDescription": "Generate and manage MiniMax H3 videos on CompShare.",
+    "longDescription": "Create MiniMax H3 video tasks through the CompShare model API, estimate point usage, monitor progress, inspect balances, cancel work, and download completed videos. API credentials stay in a local environment variable.",
+    "developerName": "Phil",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.compshare.cn/",
+    "defaultPrompt": [
+      "\u67e5\u8be2\u6211\u7684 MiniMax H3 \u79ef\u5206\u4f59\u989d\u3002",
+      "\u4f30\u7b97\u751f\u6210 5 \u79d2 1080P \u89c6\u9891\u9700\u8981\u591a\u5c11\u79ef\u5206\u3002",
+      "\u67e5\u770b\u6700\u8fd1\u7684 MiniMax H3 \u89c6\u9891\u4efb\u52a1\u3002"
+    ],
+    "brandColor": "#1769FF"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

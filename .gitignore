@@ -1,0 +1,9 @@
+.env
+.env.*
+*.log
+*.part-*
+node_modules/
+outputs/
+Thumbs.db
+.DS_Store
+

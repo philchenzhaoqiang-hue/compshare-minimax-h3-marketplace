@@ -1,0 +1,20 @@
+{
+  "name": "compshare-minimax-h3-marketplace",
+  "interface": {
+    "displayName": "CompShare MiniMax H3 Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "compshare-minimax-h3",
+      "source": {
+        "source": "local",
+        "path": "./plugins/compshare-minimax-h3"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

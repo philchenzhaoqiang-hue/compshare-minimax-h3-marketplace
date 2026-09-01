@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "compshare-minimax-h3": {
+      "command": "node",
+      "args": ["./scripts/server.mjs"],
+      "cwd": ".",
+      "env_vars": ["COMPSHARE_MINIMAX_API_KEY"],
+      "tool_timeout_sec": 1800
+    }
+  }
+}
