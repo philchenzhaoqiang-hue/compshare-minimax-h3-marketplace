@@ -1,25 +1,26 @@
 # CompShare MiniMax H3 Codex Marketplace
 
-这是一个供伙伴测试的私有 Codex 插件 Marketplace，内含 `compshare-minimax-h3` 插件。
+这是一个公开的 Codex 插件 Marketplace，内含 `compshare-minimax-h3` 插件。
 
 ## 安装
 
-1. 获得此私有仓库的 GitHub 访问权限。
-2. 在终端添加 Marketplace：
+1. 在终端添加 Marketplace：
 
    ```powershell
    codex plugin marketplace add philchenzhaoqiang-hue/compshare-minimax-h3-marketplace --ref main
    ```
 
-3. 在 Codex 的 Plugins 页面打开 **CompShare MiniMax H3** 并点击安装。
+2. 在 Codex 的 Plugins 页面打开 **CompShare MiniMax H3** 并点击安装。
 
-4. 克隆仓库后，运行安全配置脚本并输入你自己的 CompShare 模型 API Key：
+3. 克隆仓库并运行安全配置脚本，输入你自己的 CompShare 模型 API Key：
 
    ```powershell
+   git clone https://github.com/philchenzhaoqiang-hue/compshare-minimax-h3-marketplace.git
+   Set-Location .\compshare-minimax-h3-marketplace
    & ".\plugins\compshare-minimax-h3\scripts\configure-key.ps1"
    ```
 
-5. 完全退出并重新打开 Codex，然后新建一个任务。
+4. 完全退出并重新打开 Codex，然后新建一个任务。
 
 ## 使用示例
 
