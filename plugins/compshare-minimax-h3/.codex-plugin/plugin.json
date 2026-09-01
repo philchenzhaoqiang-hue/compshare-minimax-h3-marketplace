@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "description": "Control CompShare MiniMax H3 video generation from Codex.",
   "author": {
-    "name": "Phil"
+    "name": "Phil",
+    "url": "https://github.com/philchenzhaoqiang-hue"
   },
   "homepage": "https://www.compshare.cn/docs/modelverse/models/video_api/minimax-h3-video-api",
+  "repository": "https://github.com/philchenzhaoqiang-hue/compshare-minimax-h3-marketplace",
   "keywords": [
     "compshare",
     "minimax",

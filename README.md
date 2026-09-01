@@ -8,7 +8,7 @@
 2. 在终端添加 Marketplace：
 
    ```powershell
-   codex plugin marketplace add <github-owner>/compshare-minimax-h3-marketplace --ref main
+   codex plugin marketplace add philchenzhaoqiang-hue/compshare-minimax-h3-marketplace --ref main
    ```
 
 3. 在 Codex 的 Plugins 页面安装 **CompShare MiniMax H3**，或运行：
@@ -38,4 +38,3 @@
 - 每位测试者应使用自己的 `COMPSHARE_MINIMAX_API_KEY`。
 - API Key 只保存在当前 Windows 用户环境变量中，不会写入插件文件。
 - 创建视频任务会消耗测试者自己的 CompShare 积分。
-
