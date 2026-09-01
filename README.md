@@ -11,11 +11,7 @@
    codex plugin marketplace add philchenzhaoqiang-hue/compshare-minimax-h3-marketplace --ref main
    ```
 
-3. 在 Codex 的 Plugins 页面安装 **CompShare MiniMax H3**，或运行：
-
-   ```powershell
-   codex plugin add compshare-minimax-h3@compshare-minimax-h3-marketplace
-   ```
+3. 在 Codex 的 Plugins 页面打开 **CompShare MiniMax H3** 并点击安装。
 
 4. 克隆仓库后，运行安全配置脚本并输入你自己的 CompShare 模型 API Key：
 
